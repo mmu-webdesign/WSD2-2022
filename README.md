@@ -6,7 +6,7 @@
 
 ### Team members
 
-- Student Name, [email address](mailto:myaddress@test.com)
+- Safia Tariq, [email address](mailto:safiatariq2288@gmail.com)
 - Student Name, [email address](mailto:myaddress@test.com)
 - Student Name, [email address](mailto:myaddress@test.com)
 - Student Name, [email address](mailto:myaddress@test.com)
