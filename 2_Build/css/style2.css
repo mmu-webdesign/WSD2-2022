@@ -1,0 +1,318 @@
+
+    /* this is all the CSS for ALL the patterns you have asked for. You will probably be able to remove some of this because there will be repetition. */
+    
+    /* Begin with typography and colours. Then cut and paste the required layouts you have here as a starting point for your completed designs */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* make big images fit their container */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.centred-nav {
+    text-align: center;
+    border-bottom:1px solid #eee;
+}
+
+
+.centred-nav__logo {
+    width: 100px;
+    height: 100px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    background-image: url("../images/scrannymannylogo.png");
+    background-size: cover;
+}
+
+.centred-nav__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+.centred-nav__links li {
+    font-family: 'Sigmar', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    flex: 1;
+    text-transform: uppercase;
+}
+
+.centred-nav__links a {
+    color: #5d3e31;
+    }
+
+.standard-header {
+    padding: 40px 20px 20px 20px; 
+}
+
+.standard-header__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.standard-header__content h1 {margin:0; padding:0; font-size: 2.5rem; font-family: "Sigmar", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 400; color: #5d3e31;}
+.standard-header__content p {margin:0; padding:0.5rem 0 0; font-family: 'Dosis', Arial, Helvetica, sans-serif; font-size: 1.25rem;}
+
+.full-click-cards {
+    padding: 10px;
+}
+
+.card-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+@media screen and (min-width: 700px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.fc-card {
+    flex: 0 0 48%;
+    background: #eee;
+    margin-right: 1%;
+    margin-bottom: 1rem;
+}
+
+.fc-card * {
+    margin: 0;
+    padding: 0;
+}
+
+.fc-card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px 30px;
+    width: 100%;
+    min-height: 30vh;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 1.6rem;
+    -webkit-text-stroke: 1px black;
+    font-family: 'Dosis', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    /* cuts off extra content */
+    transition: transform 0.2s ease;
+}
+
+.fc-card a:hover {
+    transform: scale(1.15);
+}
+
+.fc-card.style-1 {
+    background-color: #eee;
+    background-image: url("../images/cafes/breakfast.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.40);
+    background-blend-mode: darken;
+    /* or background images, etc etc */
+}
+
+.fc-card.style-2 {
+    background-color: #ddd;
+    background-image: url("../images/cafes/coffees.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+    /* or background images, etc etc */
+}
+
+.fc-card.style-3 {
+    background-color: #ccc;
+    background-image: url("../images/cafes/desserts.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+    /* or background images, etc etc */
+}
+
+.fc-card.style-4 {
+    background-color: #eee;
+    background-image: url("../images/cafes/smoothies.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+    /* or background images, etc etc */
+}
+
+.fc-card.style-5 {
+    background-color: #eee;
+    background-image: url("../images/restaurants/asiancuisine.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-6 {
+    background-color: #eee;
+    background-image: url("../images/restaurants/britishcuisine.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-7 {
+    background-color: #eee;
+    background-image: url("../images/restaurants/chinesecuisine.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-8 {
+    background-color: #eee;
+    background-image: url("../images/restaurants/italiancuisine.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-9 {
+    background-color: #eee;
+    background-image: url("../images/restaurants/mexicancuisine.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-10 {
+    background-color: #eee;
+    background-image: url("../images/restaurants/turkishcuisine.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-11 {
+    background-color: #eee;
+    background-image: url("../images/bars/activity.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-12 {
+    background-color: #eee;
+    background-image: url("../images/bars/cocktails.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-13 {
+    background-color: #eee;
+    background-image: url("../images/bars/pubs.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-14 {
+    background-color: #eee;
+    background-image: url("../images/bars/student.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-15 {
+    background-color: #eee;
+    background-image: url("../images/location/manchestercitycentre.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-16 {
+    background-color: #eee;
+    background-image: url("../images/location/chinatown.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-17 {
+    background-color: #eee;
+    background-image: url("../images/location/northernquarter.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+.fc-card.style-18 {
+    background-color: #eee;
+    background-image: url("../images/location/fallowfield.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.32);
+    background-blend-mode: darken;
+}
+
+@font-face {
+    font-family: Sigmar;
+    src: url(../fonts/Sigmar/Sigmar-Regular.ttf);
+}
+
+@font-face {
+    font-family: ABlack;
+    src: url(fonts/Arial-Black.TTF);
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(fonts/Dosis-VariableFont_wght.TTF);
+}
+
+.page-footer {
+    background: #a08679;
+    min-height: 20vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    }
+    
+    .page-footer a {color: navy;}
+    
+    .page-footer .social-media {
+    display: flex;
+    list-style-type: none;
+    }
+    
+    .page-footer .social-media li {
+    padding: 0 1rem;
+    }

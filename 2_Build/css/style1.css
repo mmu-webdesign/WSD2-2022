@@ -1,0 +1,152 @@
+/* this is all the CSS for ALL the patterns you have asked for. You will probably be able to remove some of this because there will be repetition. */
+
+/* Begin with typography and colours. Then cut and paste the required layouts you have here as a starting point for your completed designs */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* make big images fit their container */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.centred-nav {
+    text-align: center;
+    border-bottom:1px solid #eee;
+}
+
+.centred-nav__logo {
+    width: 100px;
+    height: 100px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    background-image: url("../images/scrannymannylogo.png");
+    background-size: cover;
+}
+
+.centred-nav__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    max-width: 800px;
+    margin: 1rem auto; 
+}
+
+.centred-nav__links li {
+    font-family: 'Sigmar', Arial, Helvetica, cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    flex: 1;
+    text-transform: uppercase;
+}
+
+.centred-nav__links a {
+    color: #5d3e31;
+}
+
+/* this .content-column code is common to a lot of these patterns */
+
+.content-column {
+    padding: 40px 20px; 
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* you can use the .editable-text class to modify the typography for the standard column of content */
+
+.editable-text img {margin: 1rem 0;}
+.editable-text h1 {margin: 0; padding: 1rem 0 0.35rem 0; font-size: 2.4rem; font-weight: 400; font-family: Arial, Helvetica, cursive;}
+.editable-text h2 {margin:0; padding: 1rem 0 0.35rem 0; font-size: 1.8rem; color:#5d3e31; font-family: Georgia, 'Times New Roman', Times, serif;}
+.editable-text h3 {margin:0; padding: 1rem 0 0.35rem 0; font-size: 1.5rem; color:#808080; font-family: Georgia, 'Times New Roman', Times, serif;}
+.editable-text p {margin:0; padding: 0 0 1rem 0; font-size: 1.1rem; font-family: Arial, Helvetica, sans-serif;}
+.editable-text .address {color: #808080; font-weight: 500; font-style: italic;}
+.editable-text .spacing {margin: 0; padding: 0 0 0 0; font-family: ABlack, Helvetica, sans-serif; font-weight: bold;} 
+.editable-text .spacing2 {margin: 0; padding: 0 0 .35rem 0; font-family: ABlack, Helvetica, sans-serif; font-weight: bold;} 
+
+
+/* end .content-column code */
+.page-footer {
+background: #a08679;
+min-height: 20vh;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color:white;
+}
+
+.page-footer a {color: navy;}
+
+.page-footer .social-media {
+    display: flex;
+    list-style-type: none;
+}
+
+.page-footer .social-media li {
+    padding: 0 1rem;
+}
+
+@font-face {
+    font-family: Sigmar;
+    src: url(../fonts/Sigmar/Sigmar-Regular.ttf);
+}
+
+@font-face {
+    font-family: ABlack;
+    src: url(fonts/Arial-Black.TTF);
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.button {
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    background-color: #cb99c7;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 5px 20px 5px;
+}
+
+.button:hover {
+    background-color: #ffc0cb;
+}
+
+.line {
+    border-bottom: 2px solid;
+    width: 250px;
+    border-color: #808080;
+    margin-bottom: 10px;
+}

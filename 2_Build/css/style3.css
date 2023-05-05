@@ -1,0 +1,228 @@
+    /* this is all the CSS for ALL the patterns you have asked for. You will probably be able to remove some of this because there will be repetition. */
+    
+    /* Begin with typography and colours. Then cut and paste the required layouts you have here as a starting point for your completed designs */
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    /* apply a natural box layout model to all elements, but allowing components to change */
+    
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    
+    
+    /* make big images fit their container */
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .centred-nav {
+        text-align: center;
+        border-bottom:1px solid #eee;
+    }
+    
+    .centred-nav__logo {
+        width: 100px;
+        height: 100px;
+        line-height: 80px;
+        border-radius: 50%;
+        margin: 1rem auto;
+        background-image: url("../images/scrannymannylogo.png");
+        background-size: cover;
+    }
+    
+    .centred-nav__links {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        max-width: 800px;
+        margin: 1rem auto;
+    }
+    
+    .centred-nav__links li {
+        font-family: 'Sigmar', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        padding: 1rem 0.5rem;
+        flex: 1;
+        text-transform: uppercase;
+    }
+
+    .centred-nav__links a {
+        color: #5d3e31;
+    }
+    
+    .big-header {
+        background-color: rgb(107, 106, 106);
+        min-height: 65vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../images/home/manchester-city-centre.jpg);
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-position:center center;
+    }
+    
+    .big-header__content {
+        text-align: center;
+        color: white;
+        text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+
+    .big-header__content h1 {
+        font-family: 'Sigmar', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    .big-header__content p { 
+        font-family: 'Dosis', Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 1.05rem;
+    }
+    /* the CSS for both of these text and image patterns is the same */
+    
+    .text-image__container {
+        max-width: 1280px;
+        margin: 3rem auto;
+        padding: 1rem;
+    }
+    
+    @media screen and (min-width:700px) {
+        .text-image__container {
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+    .left .text-image__text {
+        order: 1;
+    }
+    
+    .text-image__text {
+        flex: 1;
+    }
+    
+    .text-image__content {
+        flex: 1;
+    }
+    
+    .text-image__content a {
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 0.3rem;
+        background: red;
+        margin-top: 1rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    /* the CSS for both of these text and image patterns is the same */
+    
+    .text-image__container {
+        max-width: 1280px;
+        margin: 3rem auto;
+        padding: 1rem;
+    }
+    
+    @media screen and (min-width:700px) {
+        .text-image__container {
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+    @media screen and (min-width:700px) {
+        .text-image__text {
+            flex: 1;
+        }
+        .left .text-image__text {
+            order: 1;
+        }
+        .text-image__text,
+        .left .text-image__text {
+            padding: 0 2rem;
+        }
+    }
+    
+    .text-image__content {
+        flex: 1;
+    }
+    
+    .text-image__content a {
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 0.3rem;
+        background: red;
+        margin-top: 1rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .text-image__content h2 {
+        font-family: 'Sigmar', Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        color: #5d3e31;
+    }
+
+    .text-image__content p {
+        font-family: 'Dosis', Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    
+    .page-footer {
+        background: #a08679;
+        min-height: 20vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color:white;
+    }
+        
+    .page-footer a {color: navy;}
+        
+    .page-footer .social-media {
+        display: flex;
+        list-style-type: none;
+    }
+        
+    .page-footer .social-media li {
+        padding: 0 1rem;
+    }
+
+@font-face {
+        font-family: Sigmar;
+        src: url(../fonts/Sigmar/Sigmar-Regular.ttf);
+    }
+
+@font-face {
+    font-family: ABlack;
+    src: url(fonts/Arial-Black.TTF);
+    }
+
+@font-face {
+    font-family: Dosis;
+    src: url(fonts/Dosis-VariableFont_wght.TTF);
+}
