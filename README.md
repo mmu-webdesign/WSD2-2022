@@ -6,7 +6,7 @@
 
 ### Team members
 
-- Student Name, [email address](mailto:myaddress@test.com)
+- Abigail Little, [21362340@stu.mmu.ac.uk](mailto:myaddress@test.com)
 - Student Name, [email address](mailto:myaddress@test.com)
 - Student Name, [email address](mailto:myaddress@test.com)
 - Student Name, [email address](mailto:myaddress@test.com)
