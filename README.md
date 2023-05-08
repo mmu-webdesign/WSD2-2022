@@ -7,7 +7,7 @@
 ### Team members
 
 - Abigail Little, [21362340@stu.mmu.ac.uk](mailto:myaddress@test.com)
-- Student Name, [email address](mailto:myaddress@test.com)
+- Safia Tariq, [21308452@stu.mmu.ac.uk](mailto:myaddress@test.com)
 - Student Name, [email address](mailto:myaddress@test.com)
 - Student Name, [email address](mailto:myaddress@test.com)
 
