@@ -5,6 +5,7 @@ Including...
 ## HTML Validation
 
 Quality and efficiency of your code. If you have implemented code that does not validate you need to explain why.
+
 I ran each page of our site through the W3C Validation service and the same errors appeared in each.
 
 Error 1:
