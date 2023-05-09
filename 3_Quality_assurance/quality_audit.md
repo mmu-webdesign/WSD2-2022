@@ -9,19 +9,19 @@ I ran each page of our site through the W3C Validation service and the same erro
 
 Error 1:
 
-<img src="sp6-media/image-1.jpg" alt="Safia's Prototype">
+<img src="sp6-media/image-1.png" alt="Image of error 1">
 
 All of the pictures that we had embedded into the site had this problem. We had essentially added in a trailing slash which had no useful effect on the page. I therefore went through and deleted these from every image across the site. 
 
 Error 2:
 
-insert image 2
+<img src="sp6-media/image-2.png" alt="Image of error 2">
 
 There were a few element end tags left after copying code between pages which had no use therefore these were removed across all page.
 
 Error 3:
 
-insert image 3
+<img src="sp6-media/image-3.png" alt="Image of error 3">
 
 This was also consistent across all pages right at the bottom. it was simply a script type tag dictating that we were using javascript which was unnecessary and was left over from the template that we built the web pages from.
 
