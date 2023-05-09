@@ -6,8 +6,7 @@ You should add evidence of your group’s design process here. Begin with artefa
 
 Please add at least one artefact per group member related to the exploration of designs for your website.
 
-![Safia's Prototype](sp4-media/individualprototype.jpg?raw=true "Safia's Prototype")
-<img src="/sp4-media/individualprototype.jpg" alt="Alt text" title="Optional title">
+<img src="/sp4-media/individualprototype.jpg" alt="Safia's Prototype" title="Safia's design Prototype">
 
 ## High Fidelity mock-up
 
