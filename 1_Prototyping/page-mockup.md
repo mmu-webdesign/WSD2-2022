@@ -8,9 +8,9 @@ Please add at least one artefact per group member related to the exploration of 
 
 <img src="sp4-media/abbey-sketch1.jpg" alt="images of abbeys original website sketches">
 
-<img src="../sp4-media/abbey-sketch2.jpg" alt="images of abbeys original website sketches">
+<img src="sp4-media/abbey-sketch2.jpg" alt="images of abbeys original website sketches">
 
-<img src="../sp4-media/individualprototype.jpg" alt="Safia's Prototype" title="Safia's design Prototype">
+<img src="sp4-media/individualprototype.jpg" alt="Safia's Prototype">
 
 ## High Fidelity mock-up
 
