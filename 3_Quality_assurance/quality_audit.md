@@ -9,7 +9,7 @@ I ran each page of our site through the W3C Validation service and the same erro
 
 Error 1:
 
-<img src="sp4-media/indivudualprototype.jpg" alt="Safia's Prototype">
+<img src="sp6-media/image-1.jpg" alt="Safia's Prototype">
 
 All of the pictures that we had embedded into the site had this problem. We had essentially added in a trailing slash which had no useful effect on the page. I therefore went through and deleted these from every image across the site. 
 
