@@ -30,6 +30,8 @@ This was also consistent across all pages right at the bottom. it was simply a s
 ## CSS Validation
 
 Quality and efficiency.
+<img src="sp6-media/Screenshot 2023-05-10 at 14.39.37.png" alt="Image of css validation">
+
 
 ## Speed test (inc. optimisation of code and media)
 
