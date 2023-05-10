@@ -49,3 +49,5 @@ Also test your grammar and spelling as this will lose you credibility (**and mar
 ## SEO
 
 Review your metadata (Checkbot will help) including page titles, meta description, link text, use of headings, use of keywords in your text.
+
+Our pages contained little meta data as shown in the image above. Therefore, we went back and added page titles and descriptions, we made sure to include keywords such as "student" "cheap" "food" "drink" "near me" etc. Thid eoul 
