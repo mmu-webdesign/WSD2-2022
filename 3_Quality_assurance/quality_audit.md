@@ -37,7 +37,7 @@ I validated the CSS files using The W3C CSS Validation Service and all three pag
 
 <img src="sp6-media/Screenshot 2023-05-10 at 15.54.24.png" alt="Image of css validation">
 the download speeds are very fast with the favicon being marginally slower than the rest of the images to load. However, the download speeds are more than acceptable as the screenshot above shows,, therefore we did not find the need for further optimisation of the code or the media. 
-<img src="sp6-media/Screenshot 2023-05-10 at 15.54.24.png" alt="Image of css validation">
+<img src="sp6-media/Screenshot 2023-05-10 at 16.26.45.png" alt="Image of css validation">
 Howvever, in the proccess of checking the speed, we discovered that certain fonts on the site werent linked properly and this was changed afterwards.
 
 ## Readability testing
