@@ -42,9 +42,7 @@ Howvever, in the proccess of checking the speed, we discovered that certain font
 
 ## Readability testing
 
-Test at least some of your text. Think of your type of users and the levels they would expect.
-
-Also test your grammar and spelling as this will lose you credibility (**and marks**).
+When reading through the site, a few grammaticall and spelling mistakes were found which we quickly corrected for the final version.
 
 ## SEO
 
