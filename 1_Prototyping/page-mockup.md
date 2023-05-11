@@ -12,7 +12,7 @@ Please add at least one artefact per group member related to the exploration of 
 
 <img src="sp4-media/safia-designs.jpg" alt="images of safia's original website sketches">
 
-<img src="sp4-media/safia-designs.jpg" alt="archie sketch.jpeg">
+<img src="sp4-media/archie-sketch.jpeg" alt="image of archies website sketches">
 
 ## High Fidelity mock-up
 
