@@ -12,6 +12,8 @@ Please add at least one artefact per group member related to the exploration of 
 
 <img src="sp4-media/safia-designs.jpg" alt="images of safia's original website sketches">
 
+<img src="sp4-media/safia-designs.jpg" alt="archie sketch.jpeg">
+
 ## High Fidelity mock-up
 
 Add a screenshot of a single high fidelity mock up of one important page of your site, including all global elements (e.g. navigation and page footer).
