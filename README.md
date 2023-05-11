@@ -9,7 +9,7 @@
 - Abigail Little, [21362340@stu.mmu.ac.uk](mailto:myaddress@test.com)
 - Safia Tariq, [21308452@stu.mmu.ac.uk](mailto:myaddress@test.com)
 - Archie Rubins, [21387165@stu.mmu.ac.uk](mailto:myaddress@test.com)
-- Student Name, [email address](mailto:myaddress@test.com)
+- Lewis Walker, [21391176@stu.mmu.ac.uk](mailto:myaddress@test.com)
 
 ## Submission points
 
